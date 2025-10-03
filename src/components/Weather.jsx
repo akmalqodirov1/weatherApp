@@ -56,6 +56,7 @@ export const Weather = () => {
         <h3>country : {data.sys?.country.toLowerCase()}</h3>
         <h3>temperature : {data.main?.temp} C</h3>
         <h3>description : {data.weather?.[0]?.description.toLowerCase()}</h3>
+        <p>qwertyui</p>
       </div>}
     </div>
   )
